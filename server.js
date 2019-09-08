@@ -157,3 +157,5 @@ app.delete('/user', (req, res) => {
 app.listen(port, () => {
     console.log(`SERVER LISTENING ON ${port}`);
 });
+
+module.exports = app;
